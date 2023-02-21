@@ -17,7 +17,7 @@ $$ X(t) = \displaystyle\sum_{k=1}^p a_{11,k}X(t-k) + \displaystyle\sum_{k=1}^p a
 
 $$ Y(t) = \displaystyle\sum_{k=1}^p a_{21,k}X(t-k) + \displaystyle\sum_{k=1}^p b_{22,k}Y(t-k) \varepsilon_{21}. $$
 
-If the variance of the error of the bivariate model $\sigma^2_{\varepsilon_{12}}$ is smaller than the one of the auto-regressive one $\sigma^2_{\varepsilon_1}$, this would mean that the past of $Y(t)$ improves the prediction of $X(t)$. Then, we can affirm that $Y(t)$ Granger-causes $X(T)$ and this interaction can be quantified as follows:
+If the variance of the error of the bivariate model $\sigma^2_{\varepsilon_{12}}$ is smaller than the one of the auto-regressive one $\sigma^2_{\varepsilon_1}$, this would mean that the past of $Y(t)$ improves the prediction of $X(t)$. Then, we can affirm that $Y(t)$ Granger-causes $X(t)$ and this interaction can be quantified as follows:
 
 $$ GC = \log \displaystyle\frac{ \sigma_{\varepsilon_{1}} }{ \sigma_{\varepsilon_{12}} }.$$
 
