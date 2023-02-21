@@ -1,7 +1,7 @@
 # Granger-Causality
 Bivariate Granger Causality in Python
 
-We want to know if the past of a variable $Y$ make us predict what happend in the variable $X$ better than considering only the past of $Y$. If this is true, we can affirm that there is a granger casual betwen $Y$ and $X$. 
+We want to know if the past of a variable $Y$ make us predict what happend in the variable $X$ better than considering only the past of $X$. If this is true, we can affirm that there is a granger casual betwen $Y$ and $X$. 
 
 Given the two time series, $X(t)$ and $Y(t)$, it is possible to construct an Auto-Regressive (AR) model for each one in which each time point is the result of a linear combination of their $p$ past points plus a residual (assumed white noise):
 
