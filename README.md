@@ -9,7 +9,7 @@ $$ X(t) = \displaystyle\sum_{k=1}^p a_{1,k}X(t-k) + \varepsilon_1(t), $$
 
 $$ Y(t) = \displaystyle\sum_{k=1}^p a_{2,k}Y(t-k) + \varepsilon_2(t), $$
 
-where the matrix $a_{i,j}$ contains the weights of the contributions of the past of $X(t)$ and $Y(t)$, and $\varepsilon_i$ are the residuals. The order of the AR model $p$ can be estimated by different criteria such as Akaike Information Criterion (AIC) or the Bayesian Information Criterion (BIC). In this repository $p$ is obtained as the minimum value of those obtained by this two criteria. 
+where the matrix $a_{i,j}$ contains the weights of the contributions of the past of $X(t)$ and $Y(t)$, and $\varepsilon_i$ are the residuals. The order of the AR model $p$ can be estimated by different criteria such as Akaike Information Criterion (AIC) or the Bayesian Information Criterion (BIC). In this repository $p$ is obtained as the minimum value of those obtained by these two criteria. 
 
 Modelling the past-influence of the other series is what is called Bivariate Auto-Regressive model, given rise to:
 
