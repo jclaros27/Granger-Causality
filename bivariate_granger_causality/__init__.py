@@ -1,9 +1,8 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-from statsmodels.tsa.vector_ar.var_model import VAR, VARResults
+from statsmodels.tsa.vector_ar.var_model import VAR
 from statsmodels.tsa.ar_model import AutoReg
-from statsmodels.tsa.stattools import adfuller, kpss, grangercausalitytests
+from statsmodels.tsa.stattools import adfuller, grangercausalitytests
 import warnings
 warnings.filterwarnings("ignore")
 
