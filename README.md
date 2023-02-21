@@ -23,7 +23,7 @@ $$ GC = \log \displaystyle\frac{ \sigma_{\varepsilon_{1}} }{ \sigma_{\varepsilon
 
 Of course, Granger Causality can be expanded to more variables using multivariate AR models, but this is not (yet) implemented in this repository.
 
-For deeper information of the functions used to compute Granger Causality, you can check the followings links:
+For deeper information of the functions used, you can check out the following links:
 
 (i) Vector Auto-Regressive model (VAR): https://www.statsmodels.org/dev/generated/statsmodels.tsa.vector_ar.var_model.VAR.html
 
