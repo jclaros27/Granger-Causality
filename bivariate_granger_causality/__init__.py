@@ -11,15 +11,15 @@ def get_pmin(data,variables_pairs,pmax=51):
     '''
     Compute the lag that minimizes the BIC and AIC criterion for auto-regressive models.
 
-    inputs:
-    -------
+    Parameters
+    ----------
     data: pandas.DataFrame object containing the time series data to analyze.
     variables_pairs: list of tuples containing the name of the variables and the name 
     of the time series to analyze.
     pmax: int, the maximum number of lags to consider. Default is 51.
 
 
-    return:
+    Returns
     -------
     pmin: int, the lag that minimizes the BIC and AIC criterion.
     '''
