@@ -24,7 +24,10 @@ $$ GC = \log \displaystyle\frac{ \sigma_{\varepsilon_{1}} }{ \sigma_{\varepsilon
 Of course, Granger Causality can be expanded to more variables using multivariate AR models, but this is not (yet) implemented in this repository.
 
 For deeper information of the functions used to compute Granger Causality, you can check the followings links:
+
 (i) Vector Auto-Regressive model (VAR): https://www.statsmodels.org/dev/generated/statsmodels.tsa.vector_ar.var_model.VAR.html
+
 (ii) Auto-Regressive model (AR): https://www.statsmodels.org/dev/generated/statsmodels.tsa.ar_model.AutoReg.html
+
 (iii) Augmented Dickey-Fuller (ADF) test: ttps://www.statsmodels.org/dev/generated/statsmodels.tsa.stattools.adfuller.html 
 This is used to check if the time series of interes satifies the condition of stationarity.
