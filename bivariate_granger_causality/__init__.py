@@ -29,7 +29,7 @@ def get_pmin(data,variables_pairs,pmax=51):
         results = VAR(data[variables_pairs]).fit(i)
     aic.append( results.aic )
     bic.append( results.bic )
-    pmin = int( np.min([np.min(bic), np.min(aic)]))
+    pmin = int( pseq[np.min([np.argmin(bic), np.argmin(aic)])] )
     if pmin == pmax:
         print("Pmax should be increased. Minimum p is not guaranteed")
     return pmin 
